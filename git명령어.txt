@@ -1,0 +1,10 @@
+git init
+git add .
+git commit -m "first commit"
+git config --global user.email "michaelomd@naver.com"
+git config --global user.email "kwon-hyeon-wook"
+git branch -M main		=>브랜치 설정
+git remote add origin https://github.com/kwon-Hyeon-wook/test01.git	=> origin이라는 것을 이름으로 내 원격 저장소(주소)를 적으라고 한다.
+git push -u origin main
+
+코드 변경시에는 add, commit, push만 하면된다.
